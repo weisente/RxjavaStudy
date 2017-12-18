@@ -6,10 +6,10 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import com.demo.lizejun.rxsample.R;
-
 import java.util.ArrayList;
 import java.util.List;
+
+import example.weisente.top.rxjavastudy.R;
 
 public class NewsAdapter extends RecyclerView.Adapter<NewsAdapter.MainViewHolder> {
 
