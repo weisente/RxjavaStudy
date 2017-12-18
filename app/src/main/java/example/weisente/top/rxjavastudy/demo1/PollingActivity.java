@@ -99,6 +99,7 @@ public class PollingActivity extends AppCompatActivity {
     }
 
     private DisposableObserver<Long> getDisposableObserver() {
+        //这个只是正常写  只是检测生命周期
         return new DisposableObserver<Long>() {
             @Override
             public void onNext(Long value) {
